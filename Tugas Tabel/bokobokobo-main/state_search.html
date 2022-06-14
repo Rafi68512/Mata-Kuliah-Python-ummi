@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<title>Cari Mahasiswa UMMI</title
+	</head>
+	<center>
+	<img src="logo.png" alt="Logo UMMI" style="width:175px"/>
+	<style type="text/css">
+	h1,h3
+	{
+		font-family: Calibri;
+		font-style: normal;
+		font-weight: bold;
+		color: Black;
+		text-align: center;
+	}
+	table
+	{
+		font-family: Calibri;
+		color: black;
+		font-size: 13pt;
+		font-style: normal;
+		background-color: #eff3f6;
+		border: 2px solid black
+	}
+	table.inner{border: 0px}
+	
+	</style>
+	<body bgcolor="#fff">
+	<h1>Cari Mahasiswa Berdasarkan Provinsi</h1>
+	
+	<form action="./php/state.php" method = "POST">
+	
+	<table align = "center" cellpadding = "10">
+	
+	<tr><h3>Cari mahasiswa berdasarkan sebuah provinsi</h3></tr>
+	
+	<tr>
+	<td>Pilih provinsi</td>
+	<td>
+	<select name="state" id="state">
+		<option value="-1">Provinsi</option>
+		<option value="Aceh">Aceh</option>
+		<option value="Sumatera Utara">Sumatera Utara</option>
+		<option value="Sumatera Barat">Sumatera Barat</option>
+		<option value="Riau">Riau</option>
+		<option value="Jambi">Jambi</option>
+		<option value="Sumatera Selatan">Sumatera Selatan</option>
+		<option value="Bengkulu">Bengkulu</option>
+		<option value="Lampung">Lampung</option>
+		<option value="Kep. Bangka Belitung">Kep. Bangka Belitung</option>
+		<option value="Kep. Riau">Kepulauan Riau</option>
+		<option value="Jakarta">Jakarta</option>
+		<option value="Jawa Barat">Jawa Barat</option>
+		<option value="Banten">Banten</option>
+		<option value="Jawa Tengah">Jawa Tengah</option>
+		<option value="Yogyakarta">Yogyakarta</option>
+		<option value="Jawa Timur">Jawa Timur</option>
+		<option value="Kalimantan Barat">Kalimantan Barat</option>
+		<option value="Kalimantan Tengah">Kalimantan Tengah</option>
+		<option value="Kalimantan Selatan">Kalimantan Selatan</option>
+		<option value="Kalimantan Timur">Kalimantan Timur</option>
+		<option value="Kalimantan Utara">Kalimantan Utara</option>
+		<option value="Bali">Bali</option>
+		<option value="Nusa Tenggara Timur">Nusa Tenggara Timur</option>
+		<option value="Nusa Teknik Barat">Nusa Tenggara Barat</option>
+		<option value="Sulawesi Utara">Sulawesi Utara</option>
+		<option value="Sulawesi Tengah">Sulawesi Tengah</option>
+		<option value="Sulawesi Selatan">Sulawesi Selatan</option>
+		<option value="Sulawesi Tenggara">Sulawesi Tenggara</option>
+		<option value="Sulawesi Barat">Sulawesi Barat</option>
+		<option value="Gorontalo">Gorontalo</option>
+		<option value="Maluku">Maluku</option>
+		<option value="Maluku Utara">Maluku Utara</option>
+		<option value="Papua">Papua</option>
+		<option value="Papua Barat">Papua Barat</option>
+	</select>
+	</td>
+	<td colspan="2" align="center">
+	<input type="submit" value="Cari" tabindex="4">
+	</td>
+	
+	</tr>
+	
+	</table>
+	</form>
+	<br/>
+	<br/>
+	<br/>
+	<a href='search.html'>Cari mahasiswa</a>
+	<br/>
+	<a href='index.html'>Kembali ke laman utama</a>
+	<body>
+	</center>
+</html>
